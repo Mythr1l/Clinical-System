@@ -1,0 +1,64 @@
+/* ----CSS NAVBAR START--- */
+.header nav {
+    background-color: #BAD3E4;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header nav .logo {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #10564F;
+    font-weight: bold;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 35px;
+    position: relative;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.header nav ul li a {
+    color:#fff;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.header nav ul li::after {
+    content: ' ';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    background-color: #fff;
+    width: 0%;
+    height: 2px;
+    transition: 0.3s;
+}
+
+.header nav ul li:hover::after,
+.header nav ul li:active::after{
+    width: 100%;
+}
+
+.login_btn {
+    padding: 15px 25px;
+    background-color: #10564F;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: capitalize;
+    border: 1px solid #10564F;
+    transition: 0.4s;
+}
+
+.login_btn:hover{
+    background-color: transparent;
+    color: #10564F;
+}
+/* ---CSS NAVBAR END---- */

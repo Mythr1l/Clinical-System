@@ -1,0 +1,21 @@
+patient goes to reception
+assess if it is urgent
+if it is urgent, patient is attended to the specific dental service
+if the patient can be discharged, they are sent home
+if not, they are sent to reception
+
+if patient concern is not urgent, check if the patient is in an ongoing treatment
+if true and they are also in the scheduled time, proceed to do the specific service
+then if the patient can be discharged, they are sent home
+if not, they are sent to reception
+
+if the patient is not on time, then check if the patient can be squeezed in
+if the patient can be squeezed in, proceed to do the specific service
+
+if not then the patient is reschedueled
+
+in the case that the patient is not in a treatment plan, and the patient is on time then assess the patient, take an x-ray and decide if the patient need treatment
+if not then the patient is sent to home
+
+if the patient needs treatment, then the patient is scheduled for the treatment at the reception
+ 

@@ -1,0 +1,34 @@
+patient is assessed at reception
+(patient record, concern, financial)
+
+if concern=1
+patient dental service =1
+	elseif intreatment=1
+		elseif onschedule=1
+			patient dentalservice=1
+			if patient can be discharged
+				patient is sent home
+			else
+				patient is sent to reception 
+		else
+			check if patient can be squeezed in
+			if true 
+				patient  dental service =1
+				if patient can be discharged
+					patient is sent home
+				else
+					patient is sent to reception 
+			else
+				then patient is rescheduled
+			
+		
+	else
+		if onschedule=1
+			patient is examined
+			if need treatment
+				schedule a treatment
+
+			else 
+				patient is sent home
+		else
+			patient is rescheduled
